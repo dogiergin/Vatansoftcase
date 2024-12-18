@@ -1,0 +1,5 @@
+"First, we define two variables that store the information about whether the byte count is high or low. 
+Then, we use a for loop to send serial requests to the API. In each iteration, the incoming data is parsed in JSON format and organized as a dictionary to access the desired information. 
+Finally, we perform a comparison based on the retrieved data."
+
+That's the explanation of code that Api_test
