@@ -2,10 +2,8 @@ import requests
 
 API_URL="https://random.dog/woof.json"
 
-
 bigger_count=0
 lower_count=0
-
 
 
 for i in range(10):
@@ -29,9 +27,6 @@ for i in range(10):
             
     except requests.RequestException as e:
         print(f"Error on request {i + 1}: {e}")
-
-
-        
 
 
 
